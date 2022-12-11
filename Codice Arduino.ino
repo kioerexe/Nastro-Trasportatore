@@ -9,9 +9,6 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  if(digitalRead(5) == HIGH)
+  // put your main code here, to run repeatedly
     analogWrite(3, 50);
-  else
-    analogWrite(3,0);
 }
